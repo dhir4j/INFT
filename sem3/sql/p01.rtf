@@ -1,0 +1,41 @@
+Practical no 2
+
+Create Databse: 
+create database library_management;
+
+Create Table: 
+use library_management;
+create table books
+(
+Bookno int(100) primary key,
+Bookname char(20) not null,
+Authorname char(10),
+RentPrice int(10)
+);
+
+Describe:
+desc books;
+
+RENAME:	
+rename rename table books To book;
+
+Alter Table add column: 
+alter table book
+add RentFlag bool;
+
+Alter Table modify column:
+alter table book
+modify Bookname varchar(40);
+
+Alter Table drop column:
+alter table book
+drop RentFlag;
+
+Truncate:
+truncate table book;
+
+Drop Table:
+drop table book;
+
+
+
