@@ -1,4 +1,3 @@
-package javaprogram;
 
 import java.io.DataInputStream;
 
